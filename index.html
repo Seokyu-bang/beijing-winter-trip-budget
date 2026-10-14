@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f5f2">
+  <title>冬季出境游预算榜｜北京出发</title>
+  <style>
+    :root{--ink:#172521;--muted:#697570;--line:#dce2dc;--paper:#f5f5f2;--white:#fff;--green:#174e3b;--mint:#dcece2;--lime:#d5f06a;--orange:#f09a55;--shadow:0 16px 44px rgba(23,37,33,.08)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;line-height:1.5}
+    a{color:inherit}button,select{font:inherit}.shell{max-width:1160px;margin:auto;padding:30px 26px 60px}
+    .topline{display:flex;align-items:center;justify-content:space-between;color:var(--muted);font-size:12px;letter-spacing:.12em;text-transform:uppercase}.mark{display:flex;gap:9px;align-items:center;font-weight:750;color:var(--green)}.mark i{width:11px;height:11px;border-radius:50%;background:var(--lime);box-shadow:0 0 0 4px rgba(213,240,106,.3)}
+    .hero{position:relative;overflow:hidden;margin-top:26px;padding:48px 50px 42px;border-radius:28px;background:var(--green);color:#f7faf4;box-shadow:var(--shadow)}.hero:after{content:"";position:absolute;right:-80px;top:-190px;width:470px;height:470px;border:1px solid rgba(255,255,255,.13);border-radius:50%;box-shadow:0 0 0 45px rgba(255,255,255,.035),0 0 0 100px rgba(255,255,255,.025)}
+    .eyebrow{display:inline-flex;align-items:center;gap:8px;color:#c7dfcf;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase}.eyebrow b{width:20px;height:1px;background:var(--lime)}h1{max-width:780px;margin:18px 0 14px;font-size:clamp(36px,6vw,67px);line-height:1.04;letter-spacing:-.045em;font-weight:760}.hero p{max-width:650px;margin:0;color:#cfdbd3;font-size:16px}.hero-meta{position:relative;z-index:1;display:flex;gap:10px;flex-wrap:wrap;margin-top:29px}.pill{display:inline-flex;align-items:center;padding:8px 12px;border:1px solid rgba(255,255,255,.2);border-radius:999px;color:#eff6f0;font-size:12px}.pill.highlight{background:var(--lime);border-color:var(--lime);color:var(--ink);font-weight:750}
+    .summary{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:18px 0 38px}.stat{padding:19px 21px;background:#fff;border:1px solid var(--line);border-radius:18px}.stat small{display:block;color:var(--muted);font-size:12px}.stat strong{display:block;margin-top:4px;font-size:23px;letter-spacing:-.03em}.stat span{color:var(--muted);font-size:12px}
+    .section-head{display:flex;align-items:end;justify-content:space-between;gap:20px;margin:0 0 18px}.section-head h2{margin:0;font-size:25px;letter-spacing:-.03em}.section-head p{margin:5px 0 0;color:var(--muted);font-size:13px}.controls{display:flex;gap:9px;flex-wrap:wrap}.control{min-height:40px;padding:0 13px;border:1px solid var(--line);border-radius:12px;background:#fff;color:var(--ink);font-size:13px}.control:focus{outline:3px solid rgba(23,78,59,.18);border-color:var(--green)}
+    .list{display:grid;gap:11px}.card{display:grid;grid-template-columns:62px minmax(180px,1.35fr) minmax(145px,.8fr) minmax(180px,1.1fr) 130px;align-items:center;gap:17px;padding:17px 20px;background:var(--white);border:1px solid var(--line);border-radius:18px;transition:transform .18s ease,box-shadow .18s ease}.card:hover{transform:translateY(-2px);box-shadow:var(--shadow)}.rank{display:grid;place-items:center;width:42px;height:42px;border-radius:14px;background:#edf2ec;color:var(--green);font-size:14px;font-weight:800}.rank.top{background:var(--lime)}.dest{display:flex;align-items:center;gap:13px}.flag{font-size:27px;line-height:1}.dest h3{margin:0;font-size:17px;letter-spacing:-.02em}.dest p{margin:3px 0 0;color:var(--muted);font-size:12px}.total strong{display:block;font-size:19px;letter-spacing:-.03em}.total small{color:var(--muted);font-size:11px}.flight{font-size:13px;font-weight:720}.flight small{display:block;margin-top:3px;color:var(--muted);font-size:11px;font-weight:450}.fit{justify-self:end;text-align:right}.fit b{display:block;color:var(--green);font-size:12px}.fit span{color:var(--muted);font-size:11px}.bar{height:5px;width:100%;margin-top:8px;border-radius:8px;background:#e9eee8;overflow:hidden}.bar i{display:block;height:100%;border-radius:8px;background:var(--green)}.bar i.over{background:var(--orange)}.source{margin-top:7px;font-size:11px}.source a{color:#587567;text-decoration-thickness:1px;text-underline-offset:2px}
+    .bottom-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:16px;margin-top:36px}.note{padding:24px 26px;border-radius:20px;background:#e7eee7}.note h2{margin:0 0 12px;font-size:18px}.note p,.note li{color:#4d5b54;font-size:13px}.note p{margin:7px 0}.note ul{margin:10px 0 0;padding-left:18px}.pick{padding:25px 27px;border-radius:20px;background:#fff;border:1px solid var(--line)}.pick .tag{color:#688078;font-size:11px;font-weight:750;letter-spacing:.12em}.pick h2{margin:8px 0;font-size:23px}.pick p{margin:0;color:var(--muted);font-size:13px}.pick strong{color:var(--green)}footer{display:flex;justify-content:space-between;gap:18px;margin-top:24px;padding-top:17px;border-top:1px solid var(--line);color:var(--muted);font-size:11px}.empty{padding:28px;text-align:center;border:1px dashed #bdc8be;border-radius:16px;color:var(--muted)}
+    @media(max-width:850px){.card{grid-template-columns:48px minmax(160px,1fr) minmax(130px,.7fr);gap:12px}.flight{grid-column:2}.fit{grid-column:3;grid-row:2}.bottom-grid{grid-template-columns:1fr}}
+    @media(max-width:560px){.shell{padding:18px 14px 40px}.hero{margin-top:18px;padding:32px 24px;border-radius:22px}.hero:after{right:-250px}.hero p{font-size:14px}.summary{gap:8px;margin-bottom:30px}.stat{padding:14px 12px}.stat strong{font-size:17px}.stat small,.stat span{font-size:10px}.section-head{display:block}.controls{margin-top:14px}.control{flex:1;min-width:0}.card{grid-template-columns:38px 1fr auto;padding:14px 12px;gap:9px}.rank{width:34px;height:34px}.dest{gap:9px}.dest h3{font-size:15px}.dest p{font-size:11px}.total strong{font-size:16px}.flight{grid-column:2}.fit{grid-column:3;grid-row:2}.fit span{font-size:10px}.source{font-size:10px}.bottom-grid{margin-top:27px}footer{display:block}footer span{display:block;margin-top:6px}}
+    @media print{body{background:#fff}.shell{max-width:none;padding:0}.hero{box-shadow:none}.controls{display:none}.card{break-inside:avoid}.card:hover{transform:none;box-shadow:none}.source a{text-decoration:none}}
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <div class="topline"><div class="mark"><i></i>冬季出境游指南</div><div>BEIJING · NOV–DEC 2026</div></div>
+    <header class="hero">
+      <div class="eyebrow"><b></b>5天4晚 · 北京出发</div>
+      <h1>一万元，<br>飞去哪里比较合适？</h1>
+      <p>按往返机票、经济型住宿、日常吃喝交通、少量景点和签证费用粗估。先看总预算排序，再筛亚洲、欧洲或澳洲目的地。</p>
+      <div class="hero-meta"><span class="pill highlight">预算优先：吉隆坡</span><span class="pill">远程首选：伊斯坦布尔</span><span class="pill">澳洲：建议准备 ¥1.1万+</span></div>
+    </header>
+    <section class="summary" aria-label="预算概览">
+      <div class="stat"><small>最省预算区间</small><strong>¥5,000–7,000</strong><span>吉隆坡 · 胡志明市</span></div>
+      <div class="stat"><small>远程目的地好价样本</small><strong>约 ¥3,600 起</strong><span>阿布扎比 · 伊斯坦布尔（免签）</span></div>
+      <div class="stat"><small>澳洲五日游</small><strong>约 ¥10,000–13,500+</strong><span>已计入访客签证费</span></div>
+    </section>
+
+    <section>
+      <div class="section-head"><div><h2>目的地预算榜</h2><p>总预算由低到高 · 机票样本为近期可见价，实际出票会变化</p></div>
+        <div class="controls">
+          <select class="control" id="region" aria-label="筛选地区"><option value="all">全部地区</option><option value="亚洲">亚洲</option><option value="中东">中东</option><option value="非洲">非洲</option><option value="欧洲">欧洲</option><option value="大洋洲">大洋洲</option></select>
+          <select class="control" id="cap" aria-label="按预算筛选"><option value="all">全部预算</option><option value="10000">¥10,000以内</option><option value="12000">¥12,000以内</option></select>
+          <select class="control" id="sort" aria-label="排序方式"><option value="low">总预算：从低到高</option><option value="flight">机票：从低到高</option><option value="high">总预算：从高到低</option></select>
+        </div>
+      </div>
+      <div class="list" id="list" aria-live="polite"></div>
+    </section>
+
+    <section class="bottom-grid">
+      <div class="note"><h2>预算口径</h2><ul><li>以中国普通护照、一个人出行、5天4晚估算；总额包含往返经济舱机票、普通住宿、吃饭、市内交通、少量付费景点及签证费用。</li><li>签证金额按官方基础费用估算；日本、申根和澳大利亚可能另有签证中心或代办服务费。巴厘岛另计当地旅游税。</li><li>不含购物和旅行保险；独自住一间房可能比估算高，双人同行分摊房费通常能省一些。</li><li>11月底到12月下旬票价差异明显；页面票价只是样本，廉航还要核对行李和选座费用。预订前请按准确日期重新核对。</li></ul></div>
+      <div class="pick"><div class="tag">按你前面说的偏好</div><h2>想去远一点，预算约一万</h2><p><strong>优先看伊斯坦布尔、阿布扎比或开罗。</strong> 雅典签证费较高；澳洲计入访客签证后，五天总预算更可能超过一万元。</p></div>
+    </section>
+    <footer><span>票价与消费数据为当前搜索样本及旅行预算资料整理，金额取整，仅供比较。</span><span>页面日期：2026年10月14日</span></footer>
+  </main>
+  <script>
+    const trips=[
+      {rank:1,flag:'🇲🇾',country:'马来西亚',city:'吉隆坡',region:'亚洲',budget:[5000,7000],visaFee:0,visaText:'免签 ¥0',flight:1356,flightText:'约 ¥1,356 起',flightNote:'11/28–12/5 往返样本',tag:'最省预算',why:'吃住容易控制；也可组合新加坡',sources:[['机票样本','https://lowcost.club/zh_cn/cheap-flights-from-beijing-to-kuala-lumpur-bjs-kul/'],['当地花费','https://www.budgetyourtrip.com/malaysia/kuala-lumpur'],['入境政策','https://malaysiavisa.imi.gov.my/faq/']]},
+      {rank:2,flag:'🇻🇳',country:'越南',city:'胡志明市',region:'亚洲',budget:[5200,7200],visaFee:180,visaText:'单次电子签约 ¥180（25 美元）',flight:1500,flightText:'约 ¥1,500 起',flightNote:'11月底往返低价样本',tag:'低消费',why:'暖和、吃饭选择多，地面预算弹性大',sources:[['机票样本','https://tw.trip.com/flights/beijing-to-ho-chi-minh-city/airfares-bjs-sgn/'],['当地花费','https://www.budgetyourtrip.com/vietnam/ho-chi-minh-city'],['官方电子签','https://evisa.gov.vn/']]},
+      {rank:3,flag:'🇪🇬',country:'埃及',city:'开罗',region:'非洲',budget:[6700,8700],visaFee:180,visaText:'单次电子签约 ¥180（25 美元）',flight:4982,flightText:'约 ¥4,982 起',flightNote:'12月初往返样本',tag:'远程·当地省',why:'金字塔和古文明；导游、包车另留预算',sources:[['机票样本','https://www.turkishairlines.com/zh-cn/book-flights-from-beijing-to-egypt'],['当地花费','https://www.budgetyourtrip.com/egypt/cairo'],['官方电子签','https://visa2egypt.gov.eg/eVisa/']]},
+      {rank:4,flag:'🇦🇪',country:'阿联酋',city:'阿布扎比',region:'中东',budget:[6500,9000],visaFee:0,visaText:'免签 ¥0',flight:3627,flightText:'约 ¥3,627 起',flightNote:'12月往返样本',tag:'远程·机票值',why:'沙漠与现代建筑，也可安排迪拜一日游',sources:[['机票样本','https://www.etihad.com/zh/flights/%E5%8C%97%E4%BA%AC%E5%88%B0%E9%98%BF%E5%B8%83%E6%89%8E%E6%AF%94%E8%88%AA%E7%8F%AD'],['当地花费','https://visitabudhabi.ae/en/plan-your-trip/article-hub/how-to-explore-abu-dhabi-on-a-budget'],['入境政策','https://www.mofa.gov.ae/en/missions/shanghai/services/visas']]},
+      {rank:5,flag:'🇮🇩',country:'印度尼西亚',city:'巴厘岛',region:'亚洲',budget:[6800,9300],visaFee:280,visaText:'落地签+巴厘岛旅游税约 ¥280',flight:2711,flightText:'约 ¥2,700 起',flightNote:'往返机票参考样本',tag:'海岛度假',why:'海岛、咖啡馆和自然景观；交通与一日游影响预算',sources:[['机票样本','https://flights.cathaypacific.com/destinations/sc_CN/%E4%BB%8E%E5%8C%97%E4%BA%AC%E5%88%B0%E4%B8%B9%E5%B8%95%E6%B2%99%E7%9A%84%E8%88%AA%E7%8F%AD'],['当地花费','https://www.budgetyourtrip.com/indonesia/bali'],['官方签证说明','https://kemlu.go.id/id/lima/pelayanan-perwakilan/visa-elektronik-saat-kedatangan-%28e-voa%29'],['巴厘岛旅游税','https://lovebali.baliprov.go.id/faq']]},
+      {rank:6,flag:'🇹🇷',country:'土耳其',city:'伊斯坦布尔',region:'欧洲',budget:[7500,9500],visaFee:0,visaText:'免签 ¥0（90天）',flight:3756,flightText:'约 ¥3,756 起',flightNote:'12/1–12/5 往返样本',tag:'远程首选',why:'城市体验丰富；中国普通护照自2026年起免签',sources:[['机票样本','https://www.turkishairlines.com/ja/book-flights-from-beijing-to-turkiye'],['当地花费','https://www.istanbul-trip.com/guides/istanbul-travel-budget/'],['土耳其外交部','https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa?ios_app=true']]},
+      {rank:7,flag:'🇯🇵',country:'日本',city:'东京',region:'亚洲',budget:[8200,10700],visaFee:700,visaText:'签证费估约 ¥700起，另可能有代办费',flight:2430,flightText:'约 ¥2,430 起',flightNote:'12月初往返样本',tag:'城市游',why:'交通方便、吃逛选择多；住宿和购物会影响总额',sources:[['机票样本','https://flights.ana.co.jp/zh-cn/flights-from-beijing-to-japan'],['当地花费','https://www.budgetyourtrip.com/japan/tokyo'],['签证手续','https://www.cn.emb-japan.go.jp/itpr_zh/visa_qa.html'],['签证费说明','https://www.mofa.go.jp/j_info/visit/visa/procedure/pagewe_000001_00391.html']]},
+      {rank:8,flag:'🇸🇬',country:'新加坡',city:'新加坡',region:'亚洲',budget:[7500,10000],visaFee:0,visaText:'免签 ¥0（30天）',flight:2056,flightText:'约 ¥2,056 起',flightNote:'11月底至12月往返样本',tag:'轻松城市游',why:'城市交通简单；住宿价格相对高',sources:[['机票样本','https://flights.cathaypacific.com/destinations/zh_HK/%E5%BE%9E%E5%8C%97%E4%BA%AC%E5%88%B0%E6%96%B0%E5%8A%A0%E5%9D%A1%E7%9A%84%E8%88%AA%E7%8F%AD'],['当地花费','https://www.budgetyourtrip.com/singapore'],['入境政策','https://sg.china-embassy.gov.cn/lsfw_0/zytz/202408/t20240815_11474255.htm']]},
+      {rank:9,flag:'🇬🇷',country:'希腊',city:'雅典',region:'欧洲',budget:[8800,11500],visaFee:800,visaText:'申根签证约 ¥800起，服务费另计',flight:4773,flightText:'约 ¥4,773 起',flightNote:'12月初往返样本',tag:'欧洲入门',why:'历史遗迹与城市漫步；需预留申根签证费',sources:[['机票样本','https://www.turkishairlines.com/zh-cn/flights-from-beijing-to-athens'],['当地花费','https://www.athenstourism.org/athens-trip-cost-budget-how-much/'],['申根签证费','https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A02009R0810-20240628']]},
+      {rank:10,flag:'🇦🇺',country:'澳大利亚',city:'悉尼',region:'大洋洲',budget:[10200,13300],visaFee:1200,visaText:'访客签证 ¥1,200左右（250澳元起）',flight:5124,flightText:'11月约 ¥5,124 起',flightNote:'12月样本约 ¥7,914 起',tag:'远程·预算偏紧',why:'海港、海岸线和城市生活；签证与旺季机票推高预算',sources:[['机票样本','https://www.singaporeair.com/mm/en/plan-travel/destinations/flights-from-beijing-to-sydney/'],['当地花费','https://www.budgetyourtrip.com/Australia/sydney'],['澳洲访客签证费','https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/tourist-stream-overseas']]}
+    ];
+    const list=document.getElementById('list'),region=document.getElementById('region'),cap=document.getElementById('cap'),sort=document.getElementById('sort');
+    const yuan=n=>'¥'+n.toLocaleString('zh-CN');
+    function render(){let rows=trips.filter(t=>(region.value==='all'||t.region===region.value)&&(cap.value==='all'||t.budget[1]<=Number(cap.value)));if(sort.value==='flight')rows.sort((a,b)=>a.flight-b.flight);else if(sort.value==='high')rows.sort((a,b)=>b.budget[0]-a.budget[0]);else rows.sort((a,b)=>a.budget[0]-b.budget[0]);
+      list.innerHTML=rows.length?rows.map((t,i)=>`<article class="card"><div class="rank ${i<3?'top':''}">${String(i+1).padStart(2,'0')}</div><div class="dest"><span class="flag">${t.flag}</span><div><h3>${t.city}</h3><p>${t.country} · ${t.region} · ${t.tag}</p></div></div><div class="total"><strong>${yuan(t.budget[0])}–${yuan(t.budget[1])}</strong><small>5天4晚总预算，含签证</small><small>签证：${t.visaText}</small></div><div class="flight">${t.flightText}<small>${t.flightNote}</small><div class="source">${t.sources.map((s,j)=>`<a href="${s[1]}" target="_blank" rel="noopener">${s[0]}</a>${j<t.sources.length-1?' · ':''}`).join('')}</div></div><div class="fit"><b>${t.why}</b><div class="bar"><i class="${t.budget[1]>10000?'over':''}" style="width:${Math.min(100,t.budget[1]/13500*100)}%"></i></div><span>预算上沿 ${yuan(t.budget[1])}</span></div></article>`).join(''):'<div class="empty">当前条件下没有目的地，试试放宽预算上限。</div>';
+    }
+    [region,cap,sort].forEach(el=>el.addEventListener('change',render));render();
+  </script>
+</body>
+</html>
